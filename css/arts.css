@@ -1,0 +1,54 @@
+li {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: none;
+    padding: 1;
+    overflow: hidden;
+    background-color: rgb(11, 11, 12);
+}
+li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(11, 11, 12);
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+li a:hover {
+    background-color: rgb(252, 249, 249);
+    color: rgb(0,0,0);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.col {
+    float: left;
+    padding: 20px;
+    width: 33.33%;
+}
+
+.r ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.r2 ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.r3 ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
